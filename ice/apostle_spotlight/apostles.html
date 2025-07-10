@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #E8ECED;
+        }
+
+        h1{
+            color: white;
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+        }
+
+        h3{
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #card{
+            background-image: url("images/christus.webp");
+            border: 1px solid black;
+            width: auto;
+            margin: auto;
+            border-radius: 30px;
+            border-width: 10px;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        img{
+            border: 6px solid white;
+            border-radius: 50%;
+            width: 25%;
+            height: auto;
+        }
+
+        #president{
+            width: 35%;
+            height: auto;
+        }
+
+        #apostles-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 columns */
+            gap: 20px; /* space between images */
+            padding: 20px;
+            justify-items: center; /* center images horizontally */
+        }
+
+        #apostles-grid img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+            border: 6px solid white;
+            border-radius: 50%;
+            justify-items: center;
+        }
+
+        img:hover{
+            filter: brightness(1.2);
+            box-shadow: 0 0 10px #00f;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        <h1>First Presidency</h1>
+        <img src = "images/oaks.webp">
+        <img src = "images/nelson.webp" id="president">
+        <img src = "images/eyring.webp">
+        <h3>Quorum of the Twelve Apostles</h3>
+        <div id="apostles-grid">
+        <img src = "images/holland.webp">
+        <img src = "images/uchtdorf.webp">
+        <img src = "images/bednar.webp">
+        <img src = "images/cook.webp">
+        <img src = "images/christofferson.webp">
+        <img src = "images/anderson.webp">
+        <img src = "images/rasband.webp">
+        <img src = "images/stevenson.webp">
+        <img src = "images/renlund.webp">
+        <img src = "images/gong.webp">
+        <img src = "images/soares.webp">
+        <img src = "images/kearon.webp">
+        </div>
+    </div>
+</body>
+</html>
